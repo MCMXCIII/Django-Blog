@@ -25,7 +25,7 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
       <div class="container">
-        <a class="navbar-brand" href="index.html">"Logo Here"</a>
+        <a class="navbar-brand" href="index.html">A Dev in DC.</a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           Menu
           <i class="fa fa-bars"></i>
@@ -53,7 +53,7 @@
       {% for p in posts %}
       <div class="container">
       <div class="row">
-        <div class="col-lg-4 col-md-10 mx-auto">
+        <div class="col-lg-6 col-md-10 mx-auto">
           <div class="post-preview">
               <h2 class="post-title">{{p.title}}</h2>
               <p class="post-subtitle">{{p.body}}</p>
@@ -88,22 +88,9 @@
         <div class="row">
           <div class="col-lg-8 col-md-10 mx-auto">
             <ul class="list-inline text-center">
-              <li class="list-inline-item">
-                <a href="#">
-                  <span class="fa-stack fa-lg">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
-                  </span>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="#">
-                  <span class="fa-stack fa-lg">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
-                  </span>
-                </a>
-              </li>
+                <a class="btn btn-social-icon btn-twitter">
+    				<span class="fa fa-twitter"></span>
+  				</a>
               <li class="list-inline-item">
                 <a href="#">
                   <span class="fa-stack fa-lg">
@@ -113,7 +100,7 @@
                 </a>
               </li>
             </ul>
-            <p class="copyright text-muted">Copyright &copy; Your Website 2017</p>
+            <p class="copyright text-muted">Copyright &copy; ALX 2018</p>
           </div>
         </div>
       </div>
